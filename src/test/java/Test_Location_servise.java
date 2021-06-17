@@ -7,7 +7,7 @@ import ru.netology.i18n.LocalizationServiceImpl;
 public class Test_Location_servise {
     @Test
     void test_GetByCountry(){
-        String expectLocation = "Добро пожаловать";
+        String expectLocation = "Добро пожаловать!";
         LocalizationService localizationService = new LocalizationServiceImpl ();
         String locale = localizationService.locale(Country.RUSSIA);
 
